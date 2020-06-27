@@ -38,6 +38,10 @@
 	clip-path: circle();
 }
 
+.myworksheading {
+	font-size: 2rem;
+}
+
 .footer-bg {
 	background: #242526;
 	color: #fff;
