@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+ body {
+ 	font-family: 'Ubuntu', sans-serif;
+ }
+
+ nav a {
+ 	text-decoration: none;
+ 	color: #fff;
+ 	font-size: 1.2rem;
+ 	font-weight: bold;
+ }
+
+ .con-bg {
+ 	background: #E44D26;
+ 	padding: 20px;
+ }
+
+ .welcome-section {
+	background: #242526;
+	color: #fff;
+	padding: 10rem;
+}
+
+.brief-intro {
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.brief-intro p {
+	margin-bottom: 40px;
+}
+
+.avatar {
+	height: 180px;
+	shape-outside: circle();
+	clip-path: circle();
+}
+
+.footer-bg {
+	background: #242526;
+	color: #fff;
+	padding: 3rem;
+	font-size: 1.8rem;
+}
