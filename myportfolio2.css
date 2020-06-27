@@ -39,12 +39,6 @@
 	margin-bottom: 40px;
 }
 
-.avatar {
-	height: 180px;
-	shape-outside: circle();
-	clip-path: circle();
-}
-
 .myworksheading {
 	font-size: 2rem;
 }
