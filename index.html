@@ -12,20 +12,31 @@
 	</head>
 
 	<body>
-		<div class="container-fluid con-bg fixed-top">
-				<nav class="nav justify-content-end" role="navigation">
-					<a class="nav-item nav-link active btn btn-light" role="button" href="#welcome-section">About</a>
-					<a class="nav-item nav-link" href="#projects">Works</a>
-					<a class="nav-item nav-link" href="#contact">Contact</a>
-				</nav>
-		</div>
+		<nav class="navbar navbar-expand-lg navbar-expand-md con-bg fixed-top navbar-dark">
+			<a class="navbar-brand brand" href="#">Joshdev</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-controls="headernav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="headernav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" role="button" href="#welcome-section">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#projects">Works</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 			
-
 		<main>
 			<div class="container-fluid welcome-section text-center" id="welcome-section">
 				<div class="brief-intro">
 				<p>Hey, I am Josh</br>
-				<span class="h4"><em>A web developer</em></span>
+				<span class="h4 brand"><em>A web developer</em></span>
 				</p>
 				<img src="avatar.png" class="avatar text-center">
 				</div>
