@@ -29,6 +29,11 @@
 	padding: 10rem 0;
 }
 
+.br-style {
+	border-radius: 50%!important;
+	border: 15px white inset;
+}
+
 .brief-intro {
 	font-size: 45px;
 	font-weight: bold;
